@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora de Pitágoras</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Calculadora de Pitágoras</h1>
+    <form method="post" action="/">
+        <label for="lado1">Lado 1:</label>
+        <input type="number" step="any" id="lado1" name="lado1" required><br>
+
+        <label for="lado2">Lado 2:</label>
+        <input type="number" step="any" id="lado2" name="lado2" required><br>
+
+        <input type="submit" value="Calcular">
+    </form>
+
+    {% if history %}
+        <h2>Resultados Anteriores:</h2>
+        <ul>
+            {% for calculos in history %}
+                <li>
+                    Lados: {{ calculos[0] }}, {{ calculos[1] }} - Hipotenusa: {{ calculos[2] }}
+                    - Data: {{ calculos[3] }}
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</body>
+</html>
