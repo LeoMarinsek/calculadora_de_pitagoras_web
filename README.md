@@ -22,7 +22,7 @@ A interface do usuário é simples e amigável, permitindo que o usuário insira
 - Utilizar o SQLite para armazenar o histórico de cálculos.
 - Cada entrada no banco de dados deve incluir os comprimentos dos lados, a hipotenusa calculada e o timestamp do cálculo.
 
-##Estrutura de Arquivos
+## Estrutura de Arquivos
 - app.py: Contém o código do back-end, incluindo as rotas para lidar com as requisições do front-end, os cálculos da hipotenusa e a interação com o banco de dados.
 - templates/: Pasta contendo o arquivo HTML (index.html) que define a interface do usuário.
 - static/: Pasta contendo o arquivo CSS (styles.css) para a estilização do front-end.
