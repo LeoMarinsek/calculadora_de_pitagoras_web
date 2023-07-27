@@ -2,7 +2,7 @@
 Este projeto é uma aplicação web que funciona como uma Calculadora de Pitágoras. Com ela, os usuários podem inserir os comprimentos dos dois lados de um triângulo retângulo e obter o comprimento da hipotenusa. Além disso, a aplicação mantém e exibe um histórico dos cálculos feitos pelo usuário.
 
 ## Funcionamento do Projeto
-O projeto é desenvolvido em Python usando o framework Flask para o back-end e HTML, CSS e JavaScript para o front-end. O back-end recebe os comprimentos dos lados do triângulo através de um formulário HTML e realiza os cálculos necessários para obter a hipotenusa. Os dados dos cálculos são armazenados em um banco de dados SQLite para manter o histórico.
+O projeto é desenvolvido em Python usando o framework Flask para o back-end e HTML, CSS para o front-end. O back-end recebe os comprimentos dos lados do triângulo através de um formulário HTML e realiza os cálculos necessários para obter a hipotenusa. Os dados dos cálculos são armazenados em um banco de dados SQLite para manter o histórico.
 A interface do usuário é simples e amigável, permitindo que o usuário insira os comprimentos dos lados e clique em um botão para calcular a hipotenusa. O resultado é exibido na mesma página, juntamente com o histórico de cálculos anteriores.
 
 ## Requisitos do Projeto
